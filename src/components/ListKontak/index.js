@@ -18,12 +18,15 @@ const ListKontak = () => {
 
   return (
     <div>
-        <h4>ListKontak</h4>
+        <h4>List Dosen</h4>
         {getListKontakResult ? (
             getListKontakResult.map((kontak) => {
+                for(var i=1; i<=3; i++){
                 return (
-                    <p key={kontak.id}>{kontak.nama}-{kontak.jurusan}</p>
+                        <p  key={kontak.id}>{kontak.nama}-{kontak.jurusan}</p>
+                    
                 )
+                }
             })
 
         ) : getListKontakLoading? (

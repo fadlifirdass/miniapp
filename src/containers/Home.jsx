@@ -39,6 +39,8 @@ const [judulori, setJudul] = useState('Dashboard');
           <p className='fullname'>{fullName}</p>
           <a href="#"><Link to ='/home/:userId'>Home</Link></a>
           <a href="#"><Link to='/WillUnMount'>Sertifikat</Link></a>
+          <a href="#"><Link to='/list'>Dosen</Link></a>
+  
     </div>
 
       <div className='main'>
@@ -68,7 +70,7 @@ const [judulori, setJudul] = useState('Dashboard');
             </tr>
             <tr>
               <td>Jurusan</td>
-              <td>{value.jurusan[1]}</td>
+              <td>{value.jurusan}</td>
             </tr>
           </table>
         </div>

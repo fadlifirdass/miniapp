@@ -11,6 +11,7 @@ const UseEffect = ({judul}) => {
 
   return (
     <div>
+        <p className='judul'>{judul}</p>
         <button className='useeffect' onClick={()=>setCount(count+1)}>Sertifikat A : {count} buah</button>
     </div>
   )
