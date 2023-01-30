@@ -1,8 +1,8 @@
 Note :
 
-Install json-server : npm install -g json-server
-db.json ada di dalam repository
-start json server : json-server --watch db.json alternatif jika error : npx json-server --watch db.json
+1. Install json-server : npm install -g json-server
+2. db.json ada di dalam repository
+3. start json server : json-server --watch db.json alternatif jika error : npx json-server --watch db.json
 
 # Getting Started with Create React App
 
